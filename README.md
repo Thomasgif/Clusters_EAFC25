@@ -1,7 +1,7 @@
 # Clusters_EAFC25
 El proyecto se basa en un aprendizaje no supervisado de la base de datos del juego FC25(FIFA), para poder clasificar a sus jugadores en 4 clusters, usando el algoritmo K-means con 4 variaciones del mismo aplicando 3 tipos diferentes de distancias (Euclidiana, Mahalanobis, L1). Además de lo anterior se logra hacer una visualización mediante un PCA.
 
-La base de datos paso por un EDA, para un buen procesamiento y tener concordancia de cuales e utilizaran que sean de provecho para el algoritmo, en este caso se utilizaran 45 variables para cada jugador, con una escala que ira de 0 a 100 en todas para que cada una tenga un peso similar en el procesamiento.
+La base de datos paso por un EDA, para un buen procesamiento y tener concordancia de cuales se utilizarán para que sean de provecho para el algoritmo, en este caso se utilizaran 45 variables para cada jugador, con una escala que ira de 0 a 100 en todas para que cada una tenga un peso similar en el procesamiento.
 
 Para el caso de algunas variables que están clasificadas como string, como lo han sido el pie preferido se han transformado en una variable binaria, además en las categorías que había datos NaN (datos nulos) se han imputados valores en 0, como en categoría de arqueros donde estos no afectan la estadística.
 
